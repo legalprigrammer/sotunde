@@ -1,0 +1,26 @@
+{
+  "name": "Sotunde-Olamide",
+  "short_name": "Sotunde",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "196.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    },
+    {
+      "src": "192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

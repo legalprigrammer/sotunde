@@ -1,0 +1,815 @@
+@font-face {
+  font-family: sfpro;
+  src: url(./fonts/SF-Pro.ttf);
+}
+
+@font-face {
+  font-family: sfproit;
+  src: url(./fonts/SF-Pro-Italic.ttf);
+}
+
+@font-face {
+  font-family: graphik;
+  src: url(./fonts/GraphikRegular.otf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: git;
+  src: url(./fonts/GEORGIA4.TTF);
+}
+
+@font-face {
+  font-family: juni;
+  src: url(./fonts/Junicode-BoldCondensed.ttf);
+}
+
+@font-face {
+  font-family: viaoda;
+  src: url(./fonts/ViaodaLibre-Regular.ttf);
+}
+
+body {
+  background-color: white;
+  color: black;
+  min-height: 100%;
+  font-size: 20px;
+  font-family: sfpro, sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+body header {
+  margin-top: 40px;
+}
+
+body header h2 {
+  font-size: 20px;
+  font-stretch: extra-condensed;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+body header small {
+  margin-left: 50px;
+}
+
+body header small a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body header small a:hover {
+  color: #85a88c;
+}
+
+body #mobile {
+  display: none;
+}
+
+body .herotext {
+  margin-top: 150px;
+  font-size: 65px;
+  letter-spacing: 1.5px;
+  line-height: 90px;
+  font-family: Georgia;
+}
+
+body .herotext span {
+  font-family: git, Georgia;
+  letter-spacing: 0px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+body #call-to-action {
+  margin-top: 150px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+body #call-to-action strong {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: darkcyan;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+body #call-to-action .con {
+  margin-top: 300px;
+}
+
+body #call-to-action .con::before {
+  content: '';
+  background-color: black;
+  width: 200px;
+  display: block;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+body #call-to-action a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+body #call-to-action h4 {
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 27px;
+}
+
+body #me {
+  width: 100%;
+}
+
+body .intro-two {
+  margin-top: 200px;
+}
+
+body .intro-two p {
+  line-height: 50px;
+  font-size: 40px;
+}
+
+body .intro-two span {
+  font-style: italic;
+}
+
+body .intro-two span a {
+  color: black;
+  font-weight: 100;
+  -webkit-text-decoration: navajowhite;
+          text-decoration: navajowhite;
+}
+
+body #capabilities {
+  margin-top: 200px;
+}
+
+body #capabilities h3 {
+  font-size: 55px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+body #capabilities .services {
+  border-top: 2px solid black;
+  margin: 20px;
+}
+
+body #capabilities .services h1 {
+  font-size: 150px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+body #capabilities .services h4 {
+  font-weight: 500;
+}
+
+body #capabilities .services p {
+  font-size: 17px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+body .works {
+  margin-top: 150px;
+}
+
+body .works h1 {
+  font-size: 55px;
+}
+
+body .works .thumbs {
+  width: 100%;
+  padding-top: 80px;
+  min-height: 100%;
+  border-top: 1px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+body .works .thumbs img {
+  width: 20rem;
+}
+
+body .works .thumbs .link {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+body .works .thumbs h4 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 29px;
+  font-family: Graphik;
+}
+
+body .works .thumbs a {
+  text-decoration: none;
+  color: #38433b;
+  font-weight: 500;
+  font-family: monospace;
+  letter-spacing: 1.5px;
+}
+
+body .works .thumbs a::after {
+  display: block;
+  background-color: #38433b;
+  width: 20%;
+  content: '';
+  height: 2px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body .works .thumbs a:hover::after {
+  width: 35%;
+}
+
+body .works .thumbs .class {
+  margin-top: 60px;
+}
+
+body .works .thumbs .class button {
+  border-radius: 20px;
+  color: black;
+  opacity: 1;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  color: gray;
+  pointer-events: none;
+}
+
+body footer {
+  min-height: 100%;
+  background: linear-gradient(-75deg, #000000, #0a023d, #013c4b, #000000);
+  width: 100%;
+  background-size: 400% 400%;
+  padding: 100px;
+  color: white;
+  -webkit-animation: change 10s ease-in-out infinite;
+          animation: change 10s ease-in-out infinite;
+}
+
+body footer h3 {
+  font-size: 55px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+body footer .foot {
+  margin-bottom: 100px;
+}
+
+body footer .foot p {
+  font-size: 24px;
+  width: 70%;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+body footer .links {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+body footer .links a {
+  text-decoration: none;
+  color: white;
+}
+
+@-webkit-keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+body .copyright {
+  border-top: 2px solid white;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 769px) {
+  body {
+    background-color: #38433b;
+    color: #f4f4f4;
+    min-height: 100%;
+    font-size: 20px;
+    overflow-x: hidden;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  body header {
+    display: none;
+  }
+  body #mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+  }
+  body #mobile #none {
+    display: none;
+  }
+  body #mobile small {
+    margin-left: 80px;
+  }
+  body #mobile small a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  body #mobile small a:hover {
+    color: #38433b;
+  }
+  body #mobile strong {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  body .herotext {
+    margin-top: 100px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    width: 100%;
+    font-family: Georgia;
+  }
+  body .herotext span {
+    font-family: git;
+    letter-spacing: 0px;
+    font-style: italic;
+    font-weight: 100;
+  }
+  body #call-to-action {
+    margin-top: 50px;
+  }
+  body #call-to-action strong {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #85a88c;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  body #call-to-action .con {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  body #call-to-action .con::before {
+    content: '';
+    background-color: #f4f4f4;
+    width: 150px;
+    display: block;
+    height: 1px;
+    margin-bottom: 10px;
+  }
+  body #call-to-action a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  body #call-to-action h4 {
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 31px;
+  }
+  body #me {
+    width: 100%;
+  }
+  body .intro-two {
+    margin-top: 70px;
+  }
+  body .intro-two p {
+    line-height: 35px;
+    font-size: 24px;
+  }
+  body .intro-two span {
+    font-style: italic;
+  }
+  body .intro-two span a {
+    color: #f4f4f4;
+  }
+  body #capabilities {
+    margin-top: 200px;
+  }
+  body #capabilities h3 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+  }
+  body #capabilities .services {
+    border-top: 1px solid white;
+    margin-top: 20px;
+    width: 90%;
+  }
+  body #capabilities .services h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  body #capabilities .services h4 {
+    font-weight: 500;
+  }
+  body #capabilities .services p {
+    font-size: 15px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  body .works {
+    margin-top: 150px;
+  }
+  body .works h1 {
+    font-size: 35px;
+  }
+  body .works .thumbs {
+    width: 100%;
+    padding-top: 50px;
+    margin-left: 0px;
+    min-height: 100%;
+    border-top: 1px solid white;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    margin-bottom: 30px;
+  }
+  body .works .thumbs img {
+    width: 10rem;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  body .works .thumbs .link {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  body .works .thumbs h4 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+  }
+  body .works .thumbs p {
+    font-size: 17px;
+  }
+  body .works .thumbs a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    font-size: 19px;
+  }
+  body .works .thumbs a::after {
+    display: block;
+    background-color: white;
+    width: 48%;
+    content: '';
+    height: 2px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  body .works .thumbs a:hover::after {
+    width: 55%;
+  }
+  body .works .thumbs .class {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  body footer {
+    min-height: 100%;
+    width: 100%;
+    padding: 30px 20px;
+    color: white;
+  }
+  body footer h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  body footer .foot {
+    margin-bottom: 10px;
+  }
+  body footer .foot p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  body footer .links {
+    margin-top: 30px;
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+  }
+  body footer .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  body footer .links .link {
+    margin-top: 30px;
+  }
+  body .copyright {
+    border-top: 2px solid white;
+    padding-top: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body header {
+    display: none;
+  }
+  body #mobile {
+    display: block;
+    margin-top: 30px;
+    margin-left: -12px;
+  }
+  body #mobile #none {
+    display: none;
+  }
+  body #mobile small {
+    margin-left: 70px;
+  }
+  body #mobile small a {
+    font-size: 15px;
+  }
+  body #mobile small a:hover {
+    color: #38433b;
+  }
+  body #mobile strong {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body header {
+    display: none;
+  }
+  body #mobile {
+    display: block;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  body #mobile #none {
+    display: none;
+  }
+  body #mobile small {
+    margin-left: 70px;
+  }
+  body #mobile small a {
+    font-size: 15px;
+  }
+  body #mobile small a:hover {
+    color: #38433b;
+  }
+  body #mobile strong {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  body .herotext {
+    margin-top: 80px;
+  }
+  body .herotext p {
+    line-height: 39px;
+    font-size: 32px;
+  }
+  body #call-to-action {
+    margin-top: 50px;
+  }
+  body #call-to-action strong {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  body #call-to-action .con {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  body #call-to-action .con::before {
+    width: 120px;
+    height: 1px;
+    margin-bottom: 10px;
+  }
+  body #call-to-action a {
+    font-size: 14px;
+  }
+  body .intro-two {
+    margin-top: 60px;
+  }
+  body .intro-two p {
+    line-height: 35px;
+    font-size: 24px;
+  }
+  body .intro-two span {
+    font-style: italic;
+  }
+  body .intro-two span a {
+    color: #f4f4f4;
+  }
+  body #capabilities {
+    margin-top: 100px;
+  }
+  body #capabilities h3 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+  }
+  body .works {
+    margin-top: 100px;
+  }
+  body .works h1 {
+    font-size: 35px;
+  }
+  body .works .thumbs {
+    width: 100%;
+  }
+  body .works .thumbs img {
+    width: 10rem;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  body .works .thumbs .class {
+    margin-top: 60px;
+  }
+  body footer {
+    min-height: 100%;
+    width: 100%;
+    padding: 30px 15px;
+    color: white;
+    margin-top: 50px;
+  }
+  body footer h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  body footer .foot {
+    margin-bottom: 10px;
+  }
+  body footer .foot p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  body footer .links {
+    margin-top: 30px;
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+  }
+  body footer .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  body footer .links .link {
+    margin-top: 30px;
+  }
+  body .copyright {
+    border-top: 2px solid white;
+    padding-top: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body header {
+    display: none;
+  }
+  body #mobile {
+    display: block;
+    margin-top: 50px;
+  }
+  body #mobile #none {
+    display: none;
+  }
+  body #mobile small {
+    margin-left: 70px;
+  }
+  body #mobile small a {
+    font-size: 13px;
+  }
+  body #mobile small a:hover {
+    color: #38433b;
+  }
+  body #mobile strong {
+    font-size: 16px;
+  }
+  body .herotext {
+    margin-top: 80px;
+  }
+  body .herotext p {
+    font-size: 29px;
+    line-height: 36px;
+  }
+  body #call-to-action {
+    margin-top: 50px;
+  }
+  body #call-to-action strong {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  body #call-to-action a {
+    font-size: 13px;
+  }
+  body .intro-two {
+    margin-top: 60px;
+  }
+  body .intro-two p {
+    line-height: 30px;
+    font-size: 22px;
+  }
+  body .intro-two span {
+    font-style: italic;
+  }
+  body .intro-two span a {
+    color: #f4f4f4;
+  }
+  body footer {
+    min-height: 100%;
+    background-size: cover;
+    width: 100%;
+    background: #8b1e0a;
+    padding: 30px 10px;
+    color: white;
+    -webkit-animation: changer;
+            animation: changer;
+  }
+  body footer h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  body footer .links a {
+    font-size: 18px;
+  }
+  body footer .links .link {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
